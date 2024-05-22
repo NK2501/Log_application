@@ -44,11 +44,11 @@
 
 #Initialization:
 
-   Sets up the logger with a RotatingFileHandler that handles log rotation after the log file reaches 5 MB.
+    1) Sets up the logger with a RotatingFileHandler that handles log rotation after the log file reaches 5 MB.
    
-   Configures the logger to keep up to 10 backup files.
+    2) Configures the logger to keep up to 10 backup files.
    
-   Defines a custom formatter to include the required fields in the log messages.
+    3) Defines a custom formatter to include the required fields in the log messages.
 
 #Singleton Pattern
 
