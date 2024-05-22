@@ -19,9 +19,11 @@
  7) Log file rotation is handled after every 5 MB, with a limit of 10 rotations. Old logs are automatically wrapped around.
 
 #Installation
+
  To use this logger module, you can simply include the logger_module.py file in your project.
 
 #Usage
+
  To use this logger in any part of your codebase, simply import the get_logger function and use the returned logger instance to log messages.
  1) Import the Logger:
     
@@ -42,11 +44,11 @@
 
 #Initialization:
 
-   Sets up the logger with a RotatingFileHandler that handles log rotation after the log file reaches 5 MB.
+     Sets up the logger with a RotatingFileHandler that handles log rotation after the log file reaches 5 MB.
    
-   Configures the logger to keep up to 10 backup files.
+     Configures the logger to keep up to 10 backup files.
    
-   Defines a custom formatter to include the required fields in the log messages.
+     Defines a custom formatter to include the required fields in the log messages.
 
 #Singleton Pattern
 
@@ -67,5 +69,6 @@
  6.%(message)s: The actual log message.
  
 #Conclusion
+
   This logger module provides a comprehensive logging solution that can be seamlessly integrated into any Python codebase. It ensures logs are stored in a well- 
   defined format and rotated efficiently, helping maintain clean and manageable log files.
